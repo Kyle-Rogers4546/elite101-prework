@@ -25,7 +25,7 @@ while chating:
     elif answer == "2":
         print(f"Good chooice {name}!")
         while True:
-            answer = input("Please insert account number: ")
+            answer = int(input("Please insert account number: "))
             foundpassword = False
             for i in range(len(accountNumber)):
                 if(answer == accountNumber[i]):
